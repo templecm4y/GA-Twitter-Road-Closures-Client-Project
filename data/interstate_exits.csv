@@ -307,7 +307,7 @@ exit,crossSt,dir,lat,long,interstate,exits
 10,Roosevelt Blvd,South,30.1911,-81.7094,Interstate 295,Exit 10
 12,Blanding Blvd,North,30.19137,-81.71509,Interstate 295,Exit 12
 12,Blanding Blvd,South,30.21592,-81.76101,Interstate 295,Exit 12
-16,103rd St,North,30.24321-81.76268,,Interstate 295,Exit 16
+16,103rd St,North,30.24321,-81.76268,Interstate 295,Exit 16
 16,103rd St,South,30.25144,-81.76298,Interstate 295,Exit 16
 17,Wilson Blvd,North,30.2669,-81.7659,Interstate 295,Exit 17
 17,Wilson Blvd,South,30.27403,-81.7691,Interstate 295,Exit 17
