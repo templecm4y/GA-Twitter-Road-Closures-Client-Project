@@ -6,7 +6,7 @@
 - David Trichter
 
 ## Problem Statement
-Leveraging social media such as Twitter, we want to identify real time road closures, damaged roads, traffic congestion, flooding, and other blocked routes that may affect travel time, travel safety, and accesibility to emergency response crews.
+Leveraging social media such as Twitter, we want to identify real time road closures, damaged roads, traffic congestion, flooding, and other blocked routes that may affect travel time, travel safety, and accessibility to emergency response crews.
 
 
 ## Overview
