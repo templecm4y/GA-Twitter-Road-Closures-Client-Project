@@ -25,3 +25,8 @@ The following is how we achieved our goal of collecting, modeling, and mapping r
 
 ## Results
 We were successfully able to detect road closures based on the content of the Tweet, and plot them using the extracted features.  To detect tweets, we implemented a keyword filter and as supervised model. All supervised models scored very well on the testing sets, and were able to minimize negatives in each model, showing Sensitivity scores of greater than 90%. Then, after searching the collected interstate exit data, we attempt to match Tweets to known coordinates. SpaCy was able to give us effective queries in the absence of known GPS coordinates, so we use the NPE Extracted words to build a query for the Here.com API to geolocate. The, we were successfully in plotting the tweets with coordinates on a map through the Google Maps API.
+
+## End User Information
+- Any user of the code in this repository will need a valid Twitter API key, HERE.com API key, and Google Maps API key. Included in this repository are sample credential files to use for your own API keys. Simply remove the "sample" from each file name to ensure compatibility with the notebooks.
+- We are still working on deploying a python script that runs all the code and outputs a Google Maps object as an HTML file. This file is store in the "scripts" directory, but it currently not functional.
+- All notebooks can be run and will be compatible with each other. You may need to change the names of the output files for better results, especially if you take in real-time tweets. The notebooks are numbered in order that they should be run for reproducibility.
